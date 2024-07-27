@@ -2,7 +2,7 @@ import React from "react";
 
 const PracticeCard = (props) => {
   return (
-    <div className="py-2 px-5 bg-gray-50 rounded-lg border border-gray-300 font-Sora mx-2">
+    <div className="py-2 px-5 bg-gray-50 md:px-10 py-5 rounded-lg border border-gray-300 font-Sora mx-2">
       <div className="max-w-[390px] h-[295px] flex flex-col gap-4  justify-center items-center  ">
         <div className="text-[32px]">{props.no}</div>
         <div>
