@@ -37,13 +37,13 @@ const LandingPage = () => {
           </button>
         </div>
       </div>
-      <div className="md:max-w-[90vw] mx-auto my-20">
+      <div className="md:max-w-[90vw] mx-auto my-20 ">
         <FirstSection />
         <SecondSection />
         <ThirdSection />
         <FourthSection />
         <FifthSection />
-        {/* <SixthSection /> */}
+        <SixthSection />
       </div>
       <Footer />
     </div>

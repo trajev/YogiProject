@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="max-w-[90vw] mx-auto flex flex-col lg:flex-row lg:justify-between md:items-center gap-10">
 
 
-                <div className="flex flex-col gap-4 lg:w-[30%]">
+                <div className="flex flex-col gap-4 lg:w-[31%]">
                     <div className="mb-4">
                         <img src="./images/LogoW.png" alt="Wix Freaks Law Firm Logo" className="w-24 md:w-32 lg:w-36" />
                     </div>
