@@ -19,9 +19,9 @@ const Navbar = ({ Sidebar, setSidebar }) => {
         </ul>
       </div>
       <div className="btn hidden md:block">
-        <button className="py-[13px] px-[23px] bg-blue-100 text-blue-900 rounded-full hover:underline">
+        <Link to="/form" className="py-[13px] px-[23px] bg-blue-100 text-blue-900 rounded-full hover:underline">
           Let's Talk!
-        </button>
+        </Link>
       </div>
       <div className="text-2xl md:hidden" onClick={() => setSidebar(!Sidebar)}>
         <AiOutlineMenu />
