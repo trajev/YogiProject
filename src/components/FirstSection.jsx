@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+
 
 const FirstSection = () => {
     return (
@@ -11,9 +13,9 @@ const FirstSection = () => {
             <p className='font-Roboto text-base md:text-lg lg:text-xl md:max-w-xl my-5'>
               Committed to your success, our consulting firm delivers tailored strategies and expert guidance, ensuring business excellence through precise solutions and strategic expertise for sustainable growth.
             </p>
-            <button className='py-3 px-5 bg-orange-600 text-white font-Roboto rounded-lg font-medium hover:bg-orange-700 transition-colors duration-300'>
+            <Link to="/form" className='py-3 px-5 bg-orange-600 text-white font-Roboto rounded-lg font-medium hover:bg-orange-700 transition-colors duration-300'>
               Collaborate With Us
-            </button>
+            </Link>
           </div>
           <div className="img hidden md:flex">
             <img src="./images/Discussing.png" alt="Discussing" className="w-full max-w-xs md:max-w-sm lg:max-w-md" />

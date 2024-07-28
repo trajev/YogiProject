@@ -1,10 +1,12 @@
 import React, { useState } from "react";
+
 import { AiOutlineMenu } from "react-icons/ai";
+import { Link } from "react-router-dom";
 const Navbar = ({ Sidebar, setSidebar }) => {
   return (
     <nav className="flex justify-between font-sans my-[50px] max-w-[90vw] mx-auto items-center">
       <div className="img cursor-pointer">
-        <img src="./images/Vector.png" alt="" />
+        <Link to="/"> <img src="./images/Vector.png" alt="" /> </Link>
       </div>
       <div className="list hidden md:block">
         <ul className="flex list-none gap-8 text-[16px]">

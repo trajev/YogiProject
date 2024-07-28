@@ -8,7 +8,7 @@ const Footer = () => {
 
                 <div className="flex flex-col gap-4 lg:w-[31%]">
                     <div className="mb-4">
-                        <img src="./images/LogoW.png" alt="Wix Freaks Law Firm Logo" className="w-24 md:w-32 lg:w-36" />
+                        <img src="./images/LogoW.png" alt="Wix Freaks Law Firm Logo"  />
                     </div>
                     <h1 className='font-bold text-2xl md:text-3xl lg:text-[36px] max-w-xs lg:max-w-md'>
                         Wix Freaks Law Firm
